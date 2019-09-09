@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_size_normal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_dangxuat_title"
+            android:textColor="@color/colorBlack"
+            android:layout_margin="@dimen/margin_input_layout"
+            android:textStyle="bold"/>
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin_input_layout"
+            android:id="@+id/input_edHoTenDK">
+
+            <EditText
+                android:id="@+id/edHoTenDK"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorBlack"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_ho_ten"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin_input_layout"
+            android:id="@+id/input_edDiaChiEmailDK">
+
+            <EditText
+                android:id="@+id/edDiaChiEmailDK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:hint="@string/hint_email"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin_input_layout"
+            android:id="@+id/input_edMatKhauDK">
+
+            <com.example.admin.applazada.CustomView.PassWordEditText
+                android:id="@+id/edMatKhauDK"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorBlack"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_password"
+                app:useStrike="true"
+                app:useValidate="true"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_input_layout"
+            android:text="@string/rule_password"
+
+            />
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin_input_layout"
+            android:id="@+id/input_edNhapLaiMatKhauDK">
+
+            <com.example.admin.applazada.CustomView.PassWordEditText
+                android:id="@+id/edNhapLaiMatKhauDK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:hint="@string/hint_password2"
+                app:useStrike="true"
+                app:useValidate="true"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/sEmailDocQuyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_switch_compat"
+            android:layout_margin="@dimen/margin_input_layout"
+            android:checked="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_button"
+            android:id="@+id/btnDangKy"
+            android:layout_margin="@dimen/margin_input_layout"
+            android:background="@color/bgLogo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_accept"
+            android:layout_margin="@dimen/margin_input_layout"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/option"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/btnDangKyFaceBook"
+                android:text="FaceBook"
+                android:textColor="@color/colorFacebook"
+                android:background="@drawable/vienfacebook"
+                android:drawableLeft="@drawable/facebookiconsmall"
+
+                android:layout_margin="@dimen/margin_input_layout"
+                android:drawablePadding="@dimen/margin_input_layout"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/btnDangKyGoogle"
+                android:text="Google"
+                android:textColor="@color/colorGoogle"
+                android:background="@drawable/viengoogle"
+                android:drawableLeft="@drawable/googleplussmall"
+                android:layout_margin="@dimen/margin_input_layout"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AppLazada</string>
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
+    <!--Manhinhchao-->
+    <string name="title1">Thế giới nằm trong tầm tay bạn</string>
+    <string name="title2">Giao hàng tận nơi + thanh toán dễ dàng</string>
+    <string name="title3">100% bảo vệ người tiêu dùng</string>
+    <string name="facebook_app_id">496610037742089</string>
+    <string name="fb_login_protocol_scheme">fb496610037742089</string>
+    <string name="google_plus_client">174313402979-0sdn58eeoi1g29fqj78jpkbkjipi6pc5.apps.googleusercontent.com</string>
+
+
+    <!--fragmentdangxuat-->
+    <string name="fragment_dangxuat_title">Cần điền tất cả các mục</string>
+    <string name="hint_ho_ten">Họ tên đầy đủ</string>
+    <string name="hint_email">Địa chỉ Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_password2">Nhập lại mật khẩu</string>
+    <string name="rule_password">Mật khẩu phải chứ ít nhất 6 ký tự và một chữ hoa</string>
+    <string name="title_switch_compat">Tôi muốn nhận các khuyến mãi độc quyền qua email</string>
+    <string name="title_button">Đằng ký</string>
+    <string name="title_accept">Chúng tôi đã hiểu rõ các điều khoản bảo mật của Lazada</string>
+    <string name="option">Hoặc đăng ký bằng</string>
+</resources>

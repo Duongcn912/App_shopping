@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ManHinhchao-->
+    <dimen name="lnPaddingTop">50dp</dimen>
+    <dimen name="lnPaddingLeft">100dp</dimen>
+    <dimen name="lnPaddingRight">100dp</dimen>
+    <dimen name="titleSize">16sp</dimen>
+    <dimen name="imgMarginTop">20dp</dimen>
+    <dimen name="imgMarginBottom">10dp</dimen>
+
+
+
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--fragment đăng nhập-->
+    <dimen name="padding_size_normal">10dp</dimen>
+    <dimen name="margin_input_layout">10dp</dimen>
+</resources>
